@@ -1,4 +1,4 @@
-import type { SubscriptionOptions } from "@apollo/client";
+import type { SubscriptionOptions } from "@collapp/apollo-client";
 import type { DocumentNode } from "graphql";
 import { getClient } from "./context";
 import { observableToReadable } from "./observable";

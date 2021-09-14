@@ -2,7 +2,7 @@ import type {
 	ApolloClient,
 	DataProxy,
 	OperationVariables,
-} from "@apollo/client";
+} from "@collapp/apollo-client";
 import type { DocumentNode } from "graphql";
 import { onMount } from "svelte";
 import { getClient } from "./context";

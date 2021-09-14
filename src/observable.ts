@@ -1,5 +1,6 @@
-import { ApolloError } from "@apollo/client/core";
-import type { FetchResult, Observable, ObservableQuery } from "@apollo/client";
+
+import { ApolloError } from "@collapp/apollo-client/errors/index.mjs";
+import type { FetchResult, Observable, ObservableQuery } from "@collapp/apollo-client";
 import { readable } from "svelte/store";
 import { Readable } from "svelte/store";
 

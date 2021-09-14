@@ -1,4 +1,4 @@
-import type { FetchResult, MutationOptions } from "@apollo/client";
+import type { FetchResult, MutationOptions } from "@collapp/apollo-client";
 import type { DocumentNode } from "graphql";
 import { getClient } from "./context";
 
